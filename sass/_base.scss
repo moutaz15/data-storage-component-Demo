@@ -1,0 +1,39 @@
+$color-grey-light: #dddbff;
+$color-grey-dark-1: #848794;
+
+/////////////////////////
+$color-primary-dark-1: #1d2c67;
+$color-primary-dark-2: #0c122c;
+
+/////////////////////////////////
+$color-secondary-light: #ffa399;
+$color-secondary-dark: #ff4d97;
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  height: 110%;
+}
+
+.container {
+  background-image: url(../images/bg-desktop.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "raleway", sans-serif;
+}
